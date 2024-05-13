@@ -22,7 +22,8 @@ export const Pday = styled.p`
 
 export const Pgain = styled.p`
     color: hsl(218, 22%, 67%);
-    padding: 0px 10px 0px 30px;
+    padding: 0px 10px 10px 30px;
+    line-height: 20px;
 `
 
 export const Section = styled.section`
@@ -36,7 +37,7 @@ export const Div = styled.div`
 
 export const Div2 = styled.div`
     background-color: hsl(179, 62%, 43%);
-    height: 300px;
+    height: 250px;
     width: 1400px;
     border-radius: 0px 0px 0px 10px;
 `
@@ -71,17 +72,22 @@ export const Button = styled.button`
     padding: 10px;
     height: 40px;
     width: 200px;
-    border-radius: 5px;
+    border-radius: 4px;
     color: #FFF;
     text-align: center;
     margin: 20px 30px 0px 30px;
     border: 0px;
+    transition: 1s;
+    cursor: pointer;
+    &:hover{
+        background-color: hsl(218, 22%, 67%);
+    }
 `
 
 export const Div3 = styled.div`
     background-color: hsl(179, 62%, 43%);
     opacity: 80%;
-    height: 300px;
+    height: 250px;
     width: 1400px;
     border-radius: 0px 0px 10px 0px;
 `
